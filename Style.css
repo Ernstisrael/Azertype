@@ -1,0 +1,147 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box
+}
+.azer{
+  font-size: 50px;
+  color: red;
+}
+h2{
+  padding: 10px;
+  color: green;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgba(21, 22, 59, 0.74)
+}
+.jeux-box{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 20px
+}
+.radio{
+  padding: 1px 0 ;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.radio input{
+  margin: 5px
+}
+h6{
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+em{
+  text-decoration: underline;
+  font-size: 20px;
+  color: red
+}
+.ra{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+.mot{
+  padding: 15px;
+  background-color: wheat;
+  border-radius: 15px;
+  color:blue;
+  text-align: center;
+  width: 80%
+}
+.enter{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%
+}
+.message,.messageech{
+  width: 70%;
+  height: 72%;
+  background-color: green;
+  display: none;
+  align-items: center;
+  justify-content: center;
+ position: absolute;
+ border-radius: 15px;
+ border: 2px solid black;
+
+}
+
+.message p,.messageech p{
+  font-size: 20px
+}
+.closent p,.closentech p{
+  position: absolute;
+  top: 0;
+  right:0 ;
+  color: whitesmoke;
+  padding: 0 10px;
+  margin-top: 0;
+  background-color: black;
+   border: 2px solid black;
+  border-radius: 0 15px 0 0 
+}
+
+.alert{
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+ display: none;
+}
+.enter input{
+  width: 80%;
+  height:35px;
+  border-radius: 25px 0 0 25px;
+  border: 2px solid blue;
+  font-size: 20px;
+  outline: none;
+  font-weight: bold;
+}
+.enter input::placeholder{
+  padding: 10px;
+  font-size: 15px
+}
+button{
+  height:35px;
+  border: none;
+  border-radius:0 25px 25px 0;
+  width: 70px;
+  margin-left: 5px;
+  background-color: white;
+  font-weight: bold;
+  border: 2px solid blue;
+}
+button:hover{
+  background-color: blue;
+  color: white;
+  border: none;
+}
+p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+p span{
+  color: blue;
+}
